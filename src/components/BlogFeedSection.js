@@ -203,7 +203,7 @@ export default class BlogFeedSection extends React.Component {
                         })}
                     >
                         {subtitle && <div className="section__subtitle">{subtitle}</div>}
-                        {title &&  }
+                        {title && <div className="section__subtitle">{subtitle}</div> }
                     </div>
                 )}
                 <div className="container">
