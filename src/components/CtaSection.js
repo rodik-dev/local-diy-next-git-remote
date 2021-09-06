@@ -57,7 +57,7 @@ export default class CtaSection extends React.Component {
                                     'text-right': alignX === 'right'
                                 })}
                             >
-                                {title &&  }
+                                {title && <h1 className="cta__title">{title}</h1>}
                                 {content && <div className="cta__copy">{markdownify(content)}</div>}
                             </div>
                         )}
